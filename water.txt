@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+	printf("===========================================================================================================================================================\n");
+printf("                                               GANPAT UNIVERTSITY\n");
+printf("                                  BRANCH - COMPUTER SCIENCE AND ENGINEERING (CS)\n");
+printf("                                                BATCH - 12\n");
+printf("                                           Name: Om Koladiya.\n");
+printf("                              PID514 - Water distribution management in crisis \n");
+printf("                                               ESFP-I PROJECT\n");
+printf("                                             Roll NO. - CS11\n");
+printf("                                          ENROLLMENT NO. - 22162171011\n");
+printf("==========================================================================================================================================================");
+    char application[200];
+    printf("                               Water distribution magement in crisis\n");
+    printf("==========================================================================================================================================================\n");
+    printf("Water distribution management in crisis\n");
+    scanf("%s", application);
+
+    if (strcmp(application, "water") == 0) {
+        printf("For a water application,Water connects every aspect of life. Access to safe water and sanitation can quickly turn problems into potential-empowering people with time for school and work, and contributing to improved health for women, children, and families around the world.\n");
+    } else if (strcmp(application, "crisis") == 0) {
+        printf("For a crisis application, Women are disproportionately affected by the water crisis, as they are often responsible for collecting water. This takes time away from work, school and caring for family.\n");
+    } else if (strcmp(application, "health crisis") == 0) {
+        printf("For a health crisis application, The water crisis is a health crisis. Nearly 1 million people die each year from water, sanitation and hygiene-related diseases which could be reduced with access to safe water or sanitation.\n");
+    } else if (strcmp(application, "education crisis") == 0) {
+        printf("For a education crisis, Children are often responsible for collecting water for their families. This takes time away from school and play. Access to safe water and sanitation changes this.\n");
+    } else if (strcmp(application, "global Warming") == 0) {
+        printf("For a Global Warming, Global warming is another important cause of water scarcity.\n");
+	} else {
+        printf("Sorry, I am not familiar with that application.\n");
+    }
+    return 0;
+}
